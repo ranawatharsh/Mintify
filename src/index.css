@@ -1,3 +1,9 @@
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -5,7 +11,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #F8F8F8;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -65,4 +71,10 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+.wallet-adapter-button {
+  background-color: #0096f7 !important; /* Tailwind's blue-500 */
+  color: white !important;
+  border-radius: 0.5rem !important; /* rounded-lg */
+  padding: 0.5rem 1rem !important;
 }

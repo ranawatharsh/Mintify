@@ -83,12 +83,12 @@ export function TokenLaunchpad() {
     }
 
     return   (<div className="w-screen h-screen flex items-center justify-center">
-    <div className="flex flex-col space-y-4">
-      <input className="inputText" id="name" type="text" placeholder="Name" />
-      <input className="inputText" id="symbol" type="text" placeholder="Symbol" />
-      <input className="inputText" id="image" type="text" placeholder="Image URL" />
-      <input className="inputText" id="init" type="text" placeholder="Initial Supply" />
-      <button onClick={createToken} className="btn">Create a token</button>
+    <div className="flex flex-col space-y-5  border-gray-300 p-30 rounded-lg shadow-lg mt-20 bg-[#87c4ed]">
+      <input className="inputText h-10 placeholder-black border border-gray-300 rounded-lg px-2 focus:outline-none focus:ring-0 text-black" id="name" type="text" placeholder="Name" />
+      <input className="inputText h-10 placeholder-black border border-gray-300 rounded-lg px-2 focus:outline-none focus:ring-0 text-black" id="symbol" type="text" placeholder="Symbol" />
+      <input className="inputText h-10 placeholder-black border border-gray-300 rounded-lg px-2 focus:outline-none focus:ring-0 text-black" id="image" type="text" placeholder="Image URL" />
+      <input className="inputText h-10 placeholder-black border border-gray-300 rounded-lg px-2 focus:outline-none focus:ring-0 text-black" id="init" type="text" placeholder="Initial Supply" />
+      <button onClick={createToken} className="mt-20 bg-[#0096F7] text-white px-6 py-3 rounded-lg hover:bg-[#0080D6]">Create a token</button>
     </div>
   </div>);
 }
