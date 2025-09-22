@@ -83,12 +83,13 @@ export function TokenLaunchpad() {
     }
 
     return   (<div className="w-screen h-screen flex items-center justify-center">
-    <div className="flex flex-col space-y-5  border-gray-300 p-30 rounded-lg shadow-lg mt-20 bg-[#87c4ed]">
-      <input className="inputText h-10 placeholder-black border border-gray-300 rounded-lg px-2 focus:outline-none focus:ring-0 text-black" id="name" type="text" placeholder="Name" />
-      <input className="inputText h-10 placeholder-black border border-gray-300 rounded-lg px-2 focus:outline-none focus:ring-0 text-black" id="symbol" type="text" placeholder="Symbol" />
-      <input className="inputText h-10 placeholder-black border border-gray-300 rounded-lg px-2 focus:outline-none focus:ring-0 text-black" id="image" type="text" placeholder="Image URL" />
-      <input className="inputText h-10 placeholder-black border border-gray-300 rounded-lg px-2 focus:outline-none focus:ring-0 text-black" id="init" type="text" placeholder="Initial Supply" />
-      <button onClick={createToken} className="mt-20 bg-[#0096F7] text-white px-6 py-3 rounded-lg hover:bg-[#0080D6]">Create a token</button>
+    <div className="flex flex-col space-y-5   border-gray-300 p-30 rounded-lg shadow-lg mt-25 bg-[#ffffff53] w-11/12 sm:w-3/4 md:w-2/3 lg:w-1/2 xl:w-2/5">
+      <h2 class="text-3xl font-bold mb-4 text-center text-black">Create Your Token</h2>
+      <input className="inputText h-10 placeholder-gray-400 border bg-white border-gray-300 rounded-lg px-2 focus:outline-none focus:ring-0 text-black" id="name" type="text" placeholder="Name" />
+      <input className="inputText h-10 placeholder-gray-400 border bg-white border-gray-300 rounded-lg px-2 focus:outline-none focus:ring-0 text-black" id="symbol" type="text" placeholder="Symbol" />
+      <input className="inputText h-10 placeholder-gray-400 border bg-white border-gray-300 rounded-lg px-2 focus:outline-none focus:ring-0 text-black" id="image" type="text" placeholder="Image URL" />
+      <input className="inputText h-10 placeholder-gray-400 border bg-white border-gray-300 rounded-lg px-2 focus:outline-none focus:ring-0 text-black" id="init" type="text" placeholder="Initial Supply" />
+      <button onClick={createToken} id="createbtn" className="mt-10 bg-[#0096F7] text-white px-6 py-2 rounded-lg hover:bg-[#0080D6]">Create a token</button>
     </div>
   </div>);
 }

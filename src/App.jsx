@@ -21,7 +21,10 @@ function App() {
             <div className="fixed top-0 left-0 right-0 flex justify-between items-center p-4">
               
               <WalletMultiButton />
-              <h1 className='text-[#0096F7] poppins-medium ' >mintify</h1>
+              
+              <div class="flex items-center ">
+                <img src="/Mintify.png" alt="Mintify Logo" class="h-12 md:h-20 lg:h-16 w-auto"></img>
+              </div>
               <WalletDisconnectButton />
             </div>
 

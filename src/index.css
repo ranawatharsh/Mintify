@@ -34,6 +34,11 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url('/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -73,8 +78,13 @@ button:focus-visible {
   }
 }
 .wallet-adapter-button {
-  background-color: #0096f7 !important; /* Tailwind's blue-500 */
-  color: white !important;
-  border-radius: 0.5rem !important; /* rounded-lg */
+  
+  background-image: linear-gradient(to right, #26c1f6 0%, #7248f1 100%);
+  border-radius: 50px !important;
+  padding: 0.5rem 1rem !important;
+}
+#createbtn {
+  background-image: linear-gradient(to right, #26c1f6 0%, #7248f1 100%);
+  border-radius: 50px !important;
   padding: 0.5rem 1rem !important;
 }
