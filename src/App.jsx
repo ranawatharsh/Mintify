@@ -18,7 +18,7 @@ function App() {
         <WalletProvider wallets={[]} autoConnect>
           <WalletModalProvider>
 
-            <div className="relative top-0 left-0 right-0 flex justify-between items-center p-4">
+            <div className="relative top-0 left-0 right-0 flex justify-between items-center px-4 pt-10 pb-4">
               
               <WalletMultiButton />
               
