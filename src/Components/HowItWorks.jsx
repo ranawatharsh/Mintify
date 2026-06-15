@@ -18,7 +18,7 @@ const HowItWorks = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
       
-          <div className="bg-[#ffffff53] p-6 md:p-8 rounded-2xl shadow-xl flex flex-col items-center text-center">
+          <div className="bg-[#ffffff53] backdrop-blur-md p-6 md:p-8 rounded-2xl shadow-xl flex flex-col items-center text-center">
            
             <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded-full mb-6
                             bg-gradient-to-br from-blue-500 to-purple-600 text-white text-3xl font-bold shadow-md">
@@ -33,7 +33,7 @@ const HowItWorks = () => {
           </div>
 
      
-          <div className="bg-[#ffffff53] p-6 md:p-8 rounded-2xl shadow-xl flex flex-col items-center text-center">
+          <div className="bg-[#ffffff53] backdrop-blur-md p-6 md:p-8 rounded-2xl shadow-xl flex flex-col items-center text-center">
      
             <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded-full mb-6
                             bg-gradient-to-br from-blue-500 to-purple-600 text-white text-3xl font-bold shadow-md">
@@ -48,7 +48,7 @@ const HowItWorks = () => {
           </div>
 
  
-          <div className="bg-[#ffffff53] p-6 md:p-8 rounded-2xl shadow-xl flex flex-col items-center text-center">
+          <div className="bg-[#ffffff53] backdrop-blur-md p-6 md:p-8 rounded-2xl shadow-xl flex flex-col items-center text-center">
         
             <div className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center rounded-full mb-6
                             bg-gradient-to-br from-blue-500 to-purple-600 text-white text-3xl font-bold shadow-md">
