@@ -18,19 +18,21 @@ function App() {
         <WalletProvider wallets={[]} autoConnect>
           <WalletModalProvider>
 
-            <div className="relative top-0 left-0 right-0 flex justify-between items-center p-4">
+            <div className="fixed top-0 left-0 right-0 z-50 flex flex-wrap justify-between items-center gap-3 px-4 py-4 sm:px-6 sm:py-5">
               
               <WalletMultiButton />
               
-              <div class="flex items-center ">
-                <img src="/Mintify.png" alt="Mintify Logo" class="h-12 md:h-20 lg:h-16 w-auto"></img>
+              <div className="flex items-center ">
+                <img src="/Mintify.png" alt="Mintify Logo" className="h-12 md:h-20 lg:h-16 w-auto"></img>
               </div>
               <WalletDisconnectButton />
             </div>
 
-            <TokenLaunchpad ></TokenLaunchpad>
-            <HowItWorks></HowItWorks>
-            <div className="relative z-0"><Footer/></div>
+            <main className="relative z-0 pt-40 sm:pt-36 md:pt-32 lg:pt-28">
+              <TokenLaunchpad ></TokenLaunchpad>
+              <HowItWorks></HowItWorks>
+              <Footer/>
+            </main>
           </WalletModalProvider>
         </WalletProvider>
       </ConnectionProvider>
